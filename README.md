@@ -1,2 +1,2 @@
 # ProgramacionWebS3
-Proyecto sumativo para el ramo progrmación web Duoc Uc
+Proyecto sumativo para el ramo programación web Duoc Uc
