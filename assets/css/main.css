@@ -2,6 +2,10 @@
     height: 100vh;
 }
 
+#user-btn{
+    display: none;
+}
+
 .ir-arriba{
     margin-top: 43%;
     display:inline-block;
