@@ -7,7 +7,7 @@ function logear(){
         document.getElementById('user-btn').style.display = 'block';        
     }
     else if(username != "" && password != "" && username =="admin"){
-        window.location.href = "../ejercicioPracticoHtml/index.html";
+        window.location.href = "../ProgramacionWebS3/administrador.html";
     }
     else {
       alert("Nombre de usuario o contraseña incorrectos");
