@@ -120,3 +120,8 @@ p{
     background-color: #ffff;
     color:#e970e0;
 }
+
+::placeholder {
+    color: #e970e0;
+    opacity: .5;
+  }
