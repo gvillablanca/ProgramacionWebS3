@@ -130,6 +130,12 @@ p{
     background-image: linear-gradient(to left, #fbbcda, #e9c9f5, #d1d7ff, #bfe4ff, #baeeff, #b4f3ff, #b1f8fc, #b0fdf7, #aaffed, #a9ffdf, #aeffce, #b9ffbc);
 }
 
-.fondo-img{
-    background-image: url("..//img/Logotipo.png");
+.fondo-img1{
+    background-image: url("..//img/fondo\ rosado\ lotus.png");
+}
+
+.fondo-img3{
+    background-image: url("..//img/fondo\ admin\ cielo.png");
+    background-repeat: no-repeat;
+    margin-right: 4%;
 }
