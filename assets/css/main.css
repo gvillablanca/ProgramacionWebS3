@@ -86,4 +86,37 @@ p{
     appearance: none;
     border-radius: .375rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-  }
+}
+
+.img-border{
+    border:3px solid #25ac84;
+    border-radius: 5px;
+}
+
+.false-btn{
+    border:1px solid #25ac84;
+    background-color: #ffff;
+    color:#25ac84;
+    padding: 4%;
+    border-radius: 6px;
+}
+
+.false-btn:hover{
+    border:1px solid #e970e0;
+    background-color: #ffff;
+    color:#e970e0;
+}
+
+.false-btn-modal{
+    border:1px solid #25ac84;
+    background-color: #ffff;
+    color:#25ac84;
+    padding: 2%;
+    border-radius: 6px;
+}
+
+.false-btn-modal:hover{
+    border:1px solid #e970e0;
+    background-color: #ffff;
+    color:#e970e0;
+}
