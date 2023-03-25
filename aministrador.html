@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="shortcut icon" href="assets/img/Logotipo.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Lottus Dream</title>
+    <script src="assets/js/app.js" type="text/javascript" charset="utf-8" async defer></script> 
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#home">
+            <img src="assets/img/Logotipo.png" class="img-banner-in" style="width: 5%;">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Cerrar Sesión</a>
+                </li>
+                <li class="nav-item dropdown" hidden>
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Admin 01</a>
+                    <ul class="dropdown-menu">
+                        <a class="btn btn-primary" href="index.html">Cerrar Sesión</a>
+                    </ul>
+                  </li>                                            
+              </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--seccion de administracion-->
+      <section>
+        <div class="container-fluid">
+          <br><br><br>
+          <div class="row">
+            <div class="col-4">
+              <img src="assets/img/default-user.png" alt="">
+            </div>
+            <div class="col-8">
+                <h1 class="titulo-principal"> Datos Personales</h1>
+                <p>Nombre:  </p>
+                <p>Correo:  </p>
+                <p>Cargo:   </p>
+                <p>Oficina: </p>
+                <br>
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#solicitud">Solicitudes</button><br><br>
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#lista-salon">Listado Salones</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!--Modales solicitudes-->
+    <!--Solicitudes-->
+    <div class="modal fade" id="solicitud" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel"><i class="bi bi-stars"></i> Solicitudes</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-bordered border-primary">
+              <tr>
+                <td>ID</td>
+                <td>NOMBRE</td>
+                <td>FECHA</td>
+                <td>HORA</td>
+                <td>SOLICITANTE</td>
+                <td>RUT</td>
+                <td>FONO</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </table>
+          </div>
+          <div class="modal-footer">
+              <a href="#" class="btn btn-primary"><i class="bi bi-check2-square"></i></a>
+              <a href="#" class="btn btn-primary"><i class="bi bi-slash-circle"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--Listado de Salones-->
+    <div class="modal fade" id="lista-salon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel"><i class="bi bi-stars"></i> Listado de Salones</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-bordered border-primary">
+              <tr>
+                <td>ID</td>
+                <td>NOMBRE SALON</td>
+                <td>ESTADO</td>
+                <td>UBICACION</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </table>
+          </div>
+          <div class="modal-footer">
+              <a href="#" class="btn btn-primary"><i class="bi bi-check2-square"></i></a>
+              <a href="#" class="btn btn-primary"><i class="bi bi-clock"></i></a>
+              <a href="#" class="btn btn-primary"><i class="bi bi-slash-circle"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>  
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script>
+        const myModal = document.getElementById('myModal')
+        const myInput = document.getElementById('myInput')
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+        myModal.addEventListener('shown.bs.modal', () => {
+        myInput.focus()
+        })
+    </script>
+</body>
+</html>
