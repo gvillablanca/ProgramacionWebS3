@@ -6,6 +6,37 @@
     display: none;
 }
 
+.titulo-inicio{
+    font-family: 'Euphoria Script', cursive;
+    font-size: 80px;
+    background: #E970E0;
+    background: -webkit-linear-gradient(to right, #E970E0 35%, #03DDFF 50%, #25AC84 65%);
+    background: -moz-linear-gradient(to right, #E970E0 35%, #03DDFF 50%, #25AC84 65%);
+    background: linear-gradient(to right, #E970E0 35%, #03DDFF 50%, #25AC84 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.titulo-secundario{
+    font-family: 'Quintessential', cursive;
+    font-size: 65px;
+    background: #E970E0;
+    background: -webkit-linear-gradient(to right, #E970E0 35%, #03DDFF 50%, #25AC84 65%);
+    background: -moz-linear-gradient(to right, #E970E0 35%, #03DDFF 50%, #25AC84 65%);
+    background: linear-gradient(to right, #E970E0 35%, #03DDFF 50%, #25AC84 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.subtitulo{
+    font-family: 'Quintessential', cursive;
+    text-align: center;
+    margin-top: 2.3%;
+    margin-bottom: 2.3%;
+}
+
 .ir-arriba{
     margin-top: 43%;
     display:inline-block;
@@ -39,7 +70,7 @@ p{
 
 .carru{
     width: auto;
-    height: 495px;  
+    height: 395px;  
 }
 
 .titulo-principal{
@@ -49,11 +80,7 @@ p{
     /*font-family: 'Josefin Sans';*/
 }
 
-.subtitulo{
-    text-align: center;
-    margin-top: 2.3%;
-    margin-bottom: 2.3%;
-}
+
 
 .img-ref{
     width: 750px;
@@ -127,7 +154,7 @@ p{
 }
 
 .fondo{
-    background-image: linear-gradient(to left, #fbbcda, #e9c9f5, #d1d7ff, #bfe4ff, #baeeff, #b4f3ff, #b1f8fc, #b0fdf7, #aaffed, #a9ffdf, #aeffce, #b9ffbc);
+    background-image: url("..//img/FondoIndex.png");
 }
 
 .fondo-img1{
