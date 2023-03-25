@@ -129,3 +129,7 @@ p{
 .fondo{
     background-image: linear-gradient(to left bottom, #ecd0f4, #d4dcff, #b7e9ff, #a4f4ff, #a9fbf0);
 }
+
+.fondo-img{
+    background-image: url("..//img/Logotipo.png");
+}
