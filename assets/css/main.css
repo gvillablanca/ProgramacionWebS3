@@ -131,11 +131,11 @@ p{
 }
 
 .fondo-img1{
-    background-image: url("..//img/fondo\ rosado\ lotus.png");
+    background-image: url("..//img/fondoRosadoLotus.png");
 }
 
 .fondo-img3{
-    background-image: url("..//img/fondo\ admin\ cielo.png");
+    background-image: url("..//img/FondoAdminCielo.png");
     background-repeat: no-repeat;
     margin-right: 4%;
 }
