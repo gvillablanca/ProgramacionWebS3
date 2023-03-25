@@ -124,4 +124,8 @@ p{
 ::placeholder {
     color: #e970e0;
     opacity: .5;
-  }
+}
+
+.fondo{
+    background-image: linear-gradient(to left bottom, #ecd0f4, #d4dcff, #b7e9ff, #a4f4ff, #a9fbf0);
+}
