@@ -17,6 +17,14 @@
     border-color: black;
 }
 
+p{
+    text-align: justify;
+}
+
+.card-title{
+    text-align: center;
+}
+
 .ir-arriba:hover{
     display:inline-block;
     padding:20px;
@@ -27,6 +35,11 @@
 .banner{
     width: auto;
     height: 659px;
+}
+
+.carru{
+    width: auto;
+    height: 495px;  
 }
 
 .titulo-principal{
@@ -48,11 +61,16 @@
 }
 
 .logo{
-    width: 250px;
+    width: 200px;
     margin:auto;
+    opacity: 80%;
 }
 
-#nombre, #usuario, #correo, #clave, #repetir-clave, #fecha-nacimiento, #direccion {
+.lugar{
+    width: 850px;
+}
+
+#nombre, #usuario, #correo, #clave, #repetir-clave, #fecha-nacimiento, #direccion, #fono, #mensaje {
     display: block;
     width: 100%;
     padding: .375rem .75rem;
