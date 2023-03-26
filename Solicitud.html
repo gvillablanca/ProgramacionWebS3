@@ -14,7 +14,7 @@
     <title>Solicitud</title>
     <script src="assets/js/app.js" type="text/javascript" charset="utf-8" async defer></script> 
 </head>
-  <body>
+  <body class="fondo-img3">
     <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #e3f2fd;">
       <div class="container-fluid">
         <a class="navbar-brand" href="#home">
@@ -46,20 +46,12 @@
                             <input type="text" id="nombre" name="nombre" placeholder="Nombre Completo" required>
                         </div>
                         <div class="form-group">
-                            <label for="usuario" class="text-formulario">Nombre de usuario:</label>
-                            <input type="text" id="usuario" name="usuario" placeholder="Nickname, Alias" required>
-                        </div>
-                        <div class="form-group">
                             <label for="correo" class="text-formulario">Correo electrónico:</label>
                             <input type="email" id="correo" name="correo" placeholder="correo@correo.com" required>
                         </div>
-                        <div class="form-group">
-                            <label for="direccion" class="text-formulario">Dirección de despacho (opcional):</label>
-                            <textarea id="direccion" name="direccion" placeholder="Av. Siempreviva #1347"></textarea>
-                        </div>
                         <br><br>
-                        <button type="button" class="btn btn-primary" onclick="guardar()">Guardar</button>
-                        <button type="button" class="btn btn-primary" onclick="limpiar()">Limpiar</button>
+                        <button type="button" class="false-btn-modal" onclick="guardar()">Guardar</button>
+                        <button type="button" class="false-btn-modal" onclick="limpiar()">Limpiar</button>
                     </form>
                 </div>
             </div>
