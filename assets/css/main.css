@@ -30,6 +30,16 @@
 
 }
 
+label{
+    background: #E970E0;
+    background: -webkit-linear-gradient(to right, #E970E0 35%, #03DDFF 50%, #25AC84 65%);
+    background: -moz-linear-gradient(to right, #E970E0 35%, #03DDFF 50%, #25AC84 65%);
+    background: linear-gradient(to right, #E970E0 35%, #03DDFF 50%, #25AC84 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
 .subtitulo{
     font-family: 'Quintessential', cursive;
     text-align: center;
@@ -97,7 +107,8 @@ p{
     width: 850px;
 }
 
-#nombre, #usuario, #correo, #clave, #repetir-clave, #fecha-nacimiento, #direccion, #fono, #mensaje {
+#nombre, #usuario, #correo, #clave, #repetir-clave, #fecha-nacimiento, 
+#direccion, #fono, #mensaje, #telefono, #cantidad-personas, #descripcion {
     display: block;
     width: 100%;
     padding: .375rem .75rem;

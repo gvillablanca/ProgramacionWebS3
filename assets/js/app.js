@@ -74,3 +74,11 @@ function limpiar(){
         document.getElementById("repetir-clave").value = "";
         document.getElementById("fecha-nacimiento").value = "";
 }
+
+function solicitarArriendo() {
+    var nombreSolicitante = document.getElementById("nombre").value;
+    var correoSolicitante = document.getElementById("correo").value;
+    var telefonoSolicitante = document.getElementById("telefono").value;
+    var cantidadPersonas = document.getElementById("cantidad-personas").value;
+    var descripcionSolicitante = document.getElementById("descripcion").value;
+}
