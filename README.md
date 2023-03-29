@@ -1,6 +1,6 @@
 # Lottus Dream
 
-Lottus Dream es un proyecto creado para la sumativa n°1 de la asignatura Programacion Web de la carrera Analaista Programador Computacional en DuocUc.
+Lottus Dream es un proyecto creado para la sumativa n°1 de la asignatura Programacion Web de la carrera Analista Programador Computacional en DuocUc.
 
 ## Descripción de la idea
 
