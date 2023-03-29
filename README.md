@@ -25,8 +25,8 @@ Cuenta con 2 tipos de roles: Cliente y Administración, los cuales se diferencia
 + Inicio de sesión
 + Registro de usuarios
 + Contraseña con 4 validaciones
-+ Recuperar contraseña *
-+ Modificacion de perfil (crear perfil de usuario)
++ Recuperar contraseña
++ Modificacion de perfil
 + Para la tematica de arriendos:
     + Registro y modificacion de productos
     + Manejo de invetario
