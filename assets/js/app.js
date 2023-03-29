@@ -18,9 +18,8 @@ function registrar(){
     window.location.href = "../ProgramacionWebS3/RegistrarUsuario.html";
 }
 
-function logout(){
-    document.getElementById('user-btn').style.display = 'none';
-    document.getElementById('login-btn').style.display = 'block';
+function perfil(){
+    window.location.href = "../ProgramacionWebS3/perfil-usuario.html";
 }
 
 function guardar() {

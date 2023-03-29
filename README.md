@@ -20,3 +20,15 @@ Cuenta con 2 tipos de roles: Cliente y Administración, los cuales se diferencia
 ![Admin](assets/readme/admin-logeado.jpg)
 
 (Para deslogear al usuario administrador solo debe presionar en cerrar sesión)
+
+## Lo requerido
++ Inicio de sesión
++ Registro de usuarios
++ Contraseña con 4 validaciones
++ Recuperar contraseña *
++ Modificacion de perfil (crear perfil de usuario)
++ Para la tematica de arriendos:
+    + Registro y modificacion de productos
+    + Manejo de invetario
+    + Visualización o monitoreo de compras asociadas al usuario que inició sesión
+    + Se deben crear mantenedores para la información relativa al cliente, usuarios y productos
