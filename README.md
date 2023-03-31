@@ -31,8 +31,10 @@ Cuenta con 2 tipos de roles: Cliente y Administración, los cuales se diferencia
 + Recuperar contraseña
 ![requerimiento](assets/readme/recuperar-pass.jpg)
 + Modificacion de perfil
+    + Se puede modificar el mail del usuario
 ![requerimiento](assets/readme/modificar-perfil1.jpg)
 ![requerimiento](assets/readme/modificar-perfil2.jpg)
+![requerimiento](assets/readme/modificar-perfil3.jpg)
 + Para la tematica de arriendos:
     + Visualización o monitoreo de compras asociadas al usuario que inició sesión
     ![requerimiento](assets/readme/monitoreo-prod-cliente.jpg)
