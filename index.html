@@ -22,14 +22,14 @@
           <a class="navbar-brand" href="#home">
             <img src="assets/img/Logotipo.png" class="img-banner-in" style="width: 5%;">
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="nav justify-content-end">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="#home">Inicio</a>
-                  </li>
+                    <a class="nav-link active" href="#home">Inicio</a>
+                </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#sobre">Sobre Nosotros</a>
                 </li>
@@ -43,7 +43,7 @@
                   <a class="nav-link" href="#ubicacion">Ubicación</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="modal" data-bs-target="#login" id="login-btn">Ingresar</a>
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#login" id="login-btn">Ingresar</a>
                 </li>
                 <li class="nav-item">
                     <a class="btn btn-primary" id="user-btn" onclick="perfil()"><i class="bi bi-person-circle"></i> Juan F</a>
@@ -52,7 +52,6 @@
           </div>
         </div>
       </nav>
-    
     <!--modal login-->
     <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xs">
@@ -126,12 +125,12 @@
         <br><br>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
+                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                     <h1 class="titulo-principal titulo-inicio">Lottus Dream Eventos</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12">
+                <div class="col-lg-12 col-md-12 d-sm-none d-md-block d-none d-sm-block">
                     <div id="carouselExampleIndicators" class="carousel slide">
                         <div class="carousel-indicators">
                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -167,16 +166,16 @@
     <section id="sobre" class="fondo">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
+                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                     <br>
                     <h1 class="titulo-principal titulo-secundario">Sobre Nosotros</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 d-sm-none d-md-block d-none d-sm-block">
                     <img src="assets/img/boda4.jpg" alt="" class="img-ref rounded mx-auto d-block img-border">
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-12 col-xs-12 col-sm-12">
                     <h1 class="titulo-principal subtitulo">Quienes Somos...</h1>
                     <br>
                     <p>Lottus Dream es el centro de eventos, convenciones y exhibiciones creado a la medida de nuestros clientes.</p>
@@ -199,13 +198,13 @@
         <br><br>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
+                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                     <h1 class="titulo-principal titulo-secundario">Servicios de eventos disponibles</h1>
                 </div>
             </div>
             <br><br><br>
             <div class="row">
-                <div class="col-3">
+                <div class="col-lg-3 col-md-3 d-sm-none d-md-block d-none d-sm-block">
                     <div class="card rounded mx-auto d-block module-border-wrap" style="width: 18rem; border-image-slice: 1; border-width: 2px; border-image-source: linear-gradient(to left, #E970E0, #25AC84);">
                         <img src="assets/img/cumpleaño.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -217,7 +216,7 @@
                         </div>
                       </div>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-3 d-sm-none d-md-block d-none d-sm-block">
                     <div class="card rounded mx-auto d-block" style="width: 18rem; border-image-slice: 1; border-width: 2px; border-image-source: linear-gradient(to left, #E970E0, #25AC84);">
                         <img src="assets/img/boda.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -229,7 +228,7 @@
                         </div>
                       </div>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-3 d-sm-none d-md-block d-none d-sm-block">
                     <div class="card rounded mx-auto d-block" style="width: 18rem; border-image-slice: 1; border-width: 2px; border-image-source: linear-gradient(to left, #E970E0, #25AC84);">
                         <img src="assets/img/fiesta.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -241,7 +240,7 @@
                         </div>
                       </div>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-md-3 d-sm-none d-md-block d-none d-sm-block">
                     <div class="card rounded mx-auto d-block" style="width: 18rem; border-image-slice: 1; border-width: 2px; border-image-source: linear-gradient(to left, #E970E0, #25AC84);">
                         <img src="assets/img/fiesta2.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -253,6 +252,74 @@
                         </div>
                       </div>
                 </div>
+                <!--VERSION MOVIL-->
+                <div class="d-lg-none d-xl-block d-md-none d-lg-block col-md-12 col-xs-12 col-sm-12">
+                  <div id="carouselServicio" class="carousel slide">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselServicio" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselServicio" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselServicio" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <div class="card rounded mx-auto d-block module-border-wrap" style="width: 18rem; border-image-slice: 1; border-width: 2px; border-image-source: linear-gradient(to left, #E970E0, #25AC84);">
+                            <img src="assets/img/cumpleaño.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <br>
+                              <h5 class="card-title subtitulo">Cumpleaños</h5>
+                              <br><br>
+                              <a href="#" class="false-btn" data-bs-toggle="modal" data-bs-target="#m-ev1">Información</a>
+                              <a href="Solicitud.html" class="false-btn">Cotizar evento</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="card rounded mx-auto d-block" style="width: 18rem; border-image-slice: 1; border-width: 2px; border-image-source: linear-gradient(to left, #E970E0, #25AC84);">
+                            <img src="assets/img/boda.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <br>
+                              <h5 class="card-title subtitulo">Bodas</h5>
+                              <br><br>
+                              <a href="#" class="false-btn" data-bs-toggle="modal" data-bs-target="#m-ev2">Información</a>
+                              <a href="Solicitud.html" class="false-btn">Cotizar evento</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="card rounded mx-auto d-block" style="width: 18rem; border-image-slice: 1; border-width: 2px; border-image-source: linear-gradient(to left, #E970E0, #25AC84);">
+                            <img src="assets/img/fiesta.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <br>
+                              <h5 class="card-title subtitulo">Eventos sociales</h5>
+                              <br><br>
+                              <a href="#" class="false-btn" data-bs-toggle="modal" data-bs-target="#m-ev3">Información</a>
+                              <a href="Solicitud.html" class="false-btn">Cotizar evento</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="card rounded mx-auto d-block" style="width: 18rem; border-image-slice: 1; border-width: 2px; border-image-source: linear-gradient(to left, #E970E0, #25AC84);">
+                            <img src="assets/img/fiesta2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <br>
+                              <h5 class="card-title subtitulo">Eventos Empresariales</h5>
+                              <br><br>
+                              <a href="#" class="false-btn" data-bs-toggle="modal" data-bs-target="#m-ev4">Información</a>
+                              <a href="Solicitud.html" class="false-btn">Cotizar evento</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselServicio" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselServicio" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+              </div>
             </div>
         </div>
     </section>
@@ -506,7 +573,7 @@
         <br><br>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
+                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
                     <h1 class="titulo-principal titulo-secundario">Consultas y Contacto</h1>
                 </div>
             </div>
@@ -582,14 +649,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script>
-        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-        const myModal = document.getElementById('myModal')
-        const myInput = document.getElementById('myInput')
-
-        myModal.addEventListener('shown.bs.modal', () => {
-        myInput.focus()
-        })
+      const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
     </script>
 </body>
 </html>
